@@ -68,7 +68,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/token_logo.png',
       navbar: {
         title: 'InFlora',
         logo: {
@@ -78,7 +78,7 @@ const config = {
         items: [
           {href: '/#how-to-play', label: 'How to Play', position: 'left'},
           {to: '/#economy', label: 'Economy', position: 'left'},
-          {to: '/blog', label: 'Swap', position: 'left'},
+          {to: '/swap', label: 'Swap', position: 'left'},
           {to: '/#roadmap', label: 'Roadmap', position: 'left'},
           {
             type: 'docSidebar',
@@ -153,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} InFlora, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
