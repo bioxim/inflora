@@ -131,7 +131,7 @@ const config = {
               },
               {
                 label: 'X',
-                href: 'https://x.com/',
+                href: 'https://x.com/InfloraGame',
               },
             ],
           },

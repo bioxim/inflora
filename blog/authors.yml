@@ -1,23 +1,11 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+flora:
+  name: Flora Dev
+  title: Creator
+  url: https://inflora.com
+  image_url: https://avatars.githubusercontent.com/u/24918827?v=4
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: '/all-flora-dev-articles'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: inflora
+    github: bioxim
