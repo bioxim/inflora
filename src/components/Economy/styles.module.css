@@ -1,0 +1,29 @@
+.economic {
+    background-color: var(--if-surface);
+    color: var(--if-text);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .economic h2 {
+    color: var(--if-primary);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .graphic {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #00000033;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--if-text);
+  }
+  

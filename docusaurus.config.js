@@ -1,9 +1,3 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -15,7 +9,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://inflora.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -82,10 +76,10 @@ const config = {
           src: 'img/logo-transp.png',
         },
         items: [
-          {to: '/blog', label: 'How to Play', position: 'left'},
-          {to: '/blog', label: 'Economy', position: 'left'},
+          {href: '/#how-to-play', label: 'How to Play', position: 'left'},
+          {to: '/#economy', label: 'Economy', position: 'left'},
           {to: '/blog', label: 'Swap', position: 'left'},
-          {to: '/blog', label: 'Roadmap', position: 'left'},
+          {to: '/#roadmap', label: 'Roadmap', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

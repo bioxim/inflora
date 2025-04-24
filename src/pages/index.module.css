@@ -20,4 +20,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
+
+.hero {
+  background: var(--if-bg);
+  color: var(--if-text);
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  color: var(--if-primary);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  color: var(--if-text);
+}
+

@@ -1,0 +1,50 @@
+.roadmap {
+    background-color: var(--ifm-background-color);
+    padding: 4rem 1rem;
+    color: var(--ifm-font-color-base);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: var(--ifm-color-primary);
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: var(--ifm-card-background-color, #f9f9f9);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: var(--ifm-global-radius);
+    padding: 1.5rem;
+    box-shadow: var(--ifm-global-shadow-lw);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .quarter {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--ifm-color-primary);
+    margin-bottom: 0.8rem;
+  }
+  
+  .items {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ifm-font-color-secondary);
+  }
+  

@@ -1,11 +1,45 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.section {
+  padding: 4rem 2rem;
+  background-color: var(--ifm-background-color);
+  text-align: center;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.title {
+  font-size: 2.5rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--ifm-card-background);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.link {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+  font-weight: 500;
 }

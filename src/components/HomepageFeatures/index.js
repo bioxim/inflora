@@ -1,62 +1,38 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
+// src/components/HomepageFeatures/index.js
+import React from 'react';
+import { Pickaxe, Map, Coins, BookOpen } from 'lucide-react';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
-const FeatureList = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({Svg, title, description}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <section id="how-to-play" className={styles.section}>
+      <h2 className={styles.title}>How to Play</h2>
+      <div className={styles.cards}>
+        <div className={styles.card}>
+          <Pickaxe className={styles.icon} />
+          <h3>Mining & Jobs</h3>
+          <p>Start your career, mine $FLORA, or take on other roles in the economy.</p>
+        </div>
+        <div className={styles.card}>
+          <Map className={styles.icon} />
+          <h3>Land & Upgrades</h3>
+          <p>Buy land, improve your tools, and grow your impact over time.</p>
+        </div>
+        <div className={styles.card}>
+          <Coins className={styles.icon} />
+          <h3>Earn & Trade</h3>
+          <p>Get rewards, trade assets, and participate in a living economy.</p>
+        </div>
+        <div className={styles.card}>
+          <BookOpen className={styles.icon} />
+          <h3>Full Guide</h3>
+          <p>
+            <Link to="/docs/getting-started/how-to-play" className={styles.link}>
+              Read more in the documentation →
+            </Link>
+          </p>
         </div>
       </div>
     </section>
