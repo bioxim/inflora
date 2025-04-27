@@ -31,4 +31,10 @@ Partnerships will be announced post-token listing and smart contract deployment.
 
 ---
 
+## 💼 Investor Deck
+
+Looking for a detailed overview of InFlora's game economy, token design and funding roadmap?
+
+[Check our Investor Pitch here](https://brainy-rest-ed8.notion.site/InFlora-Game-Token-Design-Overview-1e010175335680c38f09d51dd12f6a3f)
+
 > If you're a protocol, builder, or creator — we’d love to talk 🌿

@@ -35,3 +35,9 @@ I didn’t create InFlora to get rich. I created it because I was tired of seein
 So I’m inviting you – players, builders, dreamers, rebels – to help grow InFlora. Whether it’s through your skills, your ideas, or your financial support, you can be part of this movement.
 
 Let’s build something real.
+
+## 💼 Investor Deck
+
+Looking for a detailed overview of InFlora's game economy, token design and funding roadmap?
+
+[Check our Investor Pitch here](https://brainy-rest-ed8.notion.site/InFlora-Game-Token-Design-Overview-1e010175335680c38f09d51dd12f6a3f)
