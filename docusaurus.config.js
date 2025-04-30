@@ -88,7 +88,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/bioxim',
+            href: 'https://inflora-play.vercel.app/',
             label: 'PLAY GAME',
             position: 'right',
           },
