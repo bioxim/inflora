@@ -19,6 +19,13 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
+      label: 'AIRDROP',
+      items: [
+        'airdrop',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Overview',
       items: [
         'overview/what-is-inflora',
