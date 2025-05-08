@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from "@vercel/analytics/react";
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -13,6 +14,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout>
+      <Analytics />
       <main>
         <section className={styles.hero}>
           <h1>Welcome to InFlora 🌱</h1>
