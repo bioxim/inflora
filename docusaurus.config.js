@@ -100,7 +100,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://inflora-play.vercel.app/',
-            label: 'PLAY GAME',
+            label: 'FOUNDATIONAL AIRDROP',
             position: 'right',
           },
         ],
