@@ -99,7 +99,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://inflora-play.vercel.app/',
+            href: 'https://airdrop.inflora.cloud/',
             label: 'FOUNDATIONAL AIRDROP',
             position: 'right',
           },
