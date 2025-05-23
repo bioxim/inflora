@@ -133,8 +133,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Tiktok',
-                href: 'https://titok.com',
+                label: 'Telegram',
+                href: 'https://t.me/InFloraGame',
               },
               {
                 label: 'Discord',
